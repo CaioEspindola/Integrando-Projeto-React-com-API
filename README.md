@@ -1,33 +1,19 @@
-![Integrando seu projeto React com APIs](thumbnail.png)
+Integrando Projeto React com API.
 
-# Alfood
+## Sobre o Projeto
 
-O Alfood é um site que lista restaurantes e pratos do menu. 
-É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
+Este projeto tem como base o curso da formação React disponível pela instituição de ensino Alura. Com ele pude praticar e ir mais a fundo nas aplicações desenvolvidas com React.
 
-<img src="screencapture.png" alt="Imagem do Alfood" width="50%">
+O foco deste estudo não é sobre estilização e design da página.
 
+O desafio aqui é pegar um site todo estático onde só um desenvolvedor conseguiria acrescentar conteúdo, e fazer deste site uma aplicação dinâmica, onde o próprio usuário poderia acessar esse conteúdo para editar, deletar, criar novos e etc.
 
-## 🔨 Funcionalidades do projeto
+Desenvolvendo então uma área administrativa para trabalhar com Restaurantes e Pratos, onde foi implementado toda a camada de comunicação com a API.
 
-O Alfood começa com uma listagem estática de seu conteúdo e é esse o problema que queremos resolver.
-No decorrer do curso, vamos implementar toda a camada de comunicação com a API.
+Para subir o servidor back-end foi utilizado o DOCKER.
 
-## ✔️ Técnicas e tecnologias utilizadas
+Com ele a API ficou rodando em ambiente de desenvolvimento na porta 8000, que está com o container do DOCKER, que subimos para colocar a API para funcionar.
 
-Se liga nessa lista de tudo que usaremos nesse treinamento:
+Para fazer as requisições foi utilizado a biblioteca Axios.
 
-- `React`
-- `React Hooks`
-- `TypeScript`
-- `axios`
-
-## 🛠️ Abrir e rodar o projeto
-
-Para abrir e rodar o projeto, execute npm i para instalar as dependências e npm start para inicar o projeto.
-
-Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no seu navegador.
-
-## 📚 Mais informações do curso
-
-Busque na plataforma da Alura o curso **Integrando seu projeto React com APIs** publicado na Escola Frontend.
+Com ela foi feito várias operações HTTP como .get, .post, .delete e também manipular imagem, onde é possível pegar um input de imagem e enviar para o backend.
